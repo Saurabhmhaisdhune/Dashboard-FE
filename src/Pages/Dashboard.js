@@ -4,8 +4,9 @@ import { MdNotificationsNone } from "react-icons/md";
 import { BiSearch } from "react-icons/bi";
 import { FaMoneyBills } from "react-icons/fa6";
 import { AiOutlineLike } from "react-icons/ai";
-import {FiUsers } from "react-icons/fi"
-import {BsTags} from "react-icons/bs"
+import { FiUsers } from "react-icons/fi";
+import { BsTags } from "react-icons/bs";
+import {SlOptionsVertical} from "react-icons/sl"
 import Chart from "../Chart/Chart";
 import DataChart from "../Chart/DataChart";
 import SideBar from "../Components/SideBar";
@@ -43,6 +44,18 @@ function Dashboard() {
         <div className="d-headline">
           <h1 className="d-title">Dashboard</h1>
           <div className="search-main">
+          <span className="option">
+            <SlOptionsVertical/>
+            <div className="sub-option">
+              <ul>
+                <li>Dashboard</li>
+                <li>Transactions</li>
+                <li>Schedules</li>
+                <li>Users</li>
+                <li>Settings</li>
+              </ul>
+            </div>
+          </span>
             <div className="searchbar">
               <input
                 type="search"
@@ -67,9 +80,7 @@ function Dashboard() {
                 style={{ backgroundColor: [item.color] }}
                 key={item._id}
               >
-                <span className="FaMoneyBills">
-                  {getIcon(item.icon)}
-                </span>
+                <span className="FaMoneyBills">{getIcon(item.icon)}</span>
                 <p className="d-topic">{item.topic}</p>
                 <p className="d-value">{item.value}</p>
               </div>

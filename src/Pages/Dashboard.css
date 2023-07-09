@@ -7,7 +7,32 @@
   display: grid;
   gap: 40px;
   grid-template-columns: 19.44% 78.66%;
-
+}
+@media (max-width: 1220px) {
+  .Dashboard-main {
+    grid-template-columns: 0% 100%;
+    gap: 20px;
+  }
+  /* .FaMoneyBills{
+    
+  } */
+  .d-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto; */
+  }
+  .top-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .option {
+    visibility: visible;
+    color: #000;
+  }
 }
 /* main content from here------> */
 .searchbar {
@@ -205,26 +230,78 @@
   line-height: normal;
   margin: 4px;
 }
-.liner{
+.liner {
   height: 66px;
   padding: 0px 0px 0px 20px;
-  border-left: 5px solid #9BDD7C;
+  border-left: 5px solid #9bdd7c;
 }
-.liner1{
+.liner1 {
   height: 66px;
   padding: 8px 0px 0px 20px;
-  border-left: 5px solid #6972C3;
+  border-left: 5px solid #6972c3;
 }
-@media screen and (width: 1435px){
+/* @media screen and (width: 1435px){
   .pie-chart {
     width: 300px;
   }
 }
-@media screen and (width: 1315px){
+@media screen and (width: 1355px){
   .pie-chart {
     width: 100px;
   }
   .data-4{
-    width: 150px;
+    width: 100px;
   }
+} */
+.option {
+  visibility: hidden;
+  color: #000;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 20px;
+}
+.option:hover {
+  cursor: pointer;
+}
+.option:hover .sub-option {
+  visibility: visible;
+  transition-delay: 500ms;
+}
+.sub-option {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 0;
+  position: absolute;
+  top: 85px;
+  left: 400px;
+  z-index: 1;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sub-option ul li {
+  list-style: none;
+  list-style-type: none;
+  margin: 5px;
+}
+.sub-option ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.sub-option ul li:hover {
+  cursor: pointer;
 }

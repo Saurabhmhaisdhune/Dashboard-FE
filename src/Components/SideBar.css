@@ -6,12 +6,22 @@
   height: 90vh;
   border-radius: 30px;
 }
+@media only screen and (width: 1350px) {
+  /* .sidebar {
+    width: 150px;
+  } */
+}
 @media only screen and (max-width: 1440px) {
-  .sidebar {
-    width: 280px;
-    height: 944px;
+  .sidebar-content{
+    margin: 60px 0px 0px 5px;
   }
 }
+@media only screen and (max-width: 1220px) {
+  .sidebar-content{
+   visibility: hidden;
+  }
+}
+
 .sidebar-content {
   margin: 60px 0px 0px 50px;
 }
