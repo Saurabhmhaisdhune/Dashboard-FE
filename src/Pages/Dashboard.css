@@ -1,0 +1,230 @@
+.Dashboard-main {
+  /* display: flex;
+  flex-direction: row; */
+  background-color: #f5f5f5;
+  /* width: 1440px; */
+  /* height: 1024px; */
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 19.44% 78.66%;
+
+}
+/* main content from here------> */
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input-search {
+  border: none;
+  width: 153px;
+  height: 30px;
+  color: #858585;
+  font-family: "Lato", sans-serif;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding-left: 10px;
+}
+.bisearch-icon {
+  color: #858585;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  padding: 7.5px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.main-content {
+  margin: 60px 60px 80px 20px;
+  /* width: 1000px; */
+}
+.d-title {
+  color: #000;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+.d-headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pro-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.MdNotificationsNone {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+}
+.search-main {
+  display: flex;
+  justify-content: space-between;
+}
+.data-4 {
+  width: 221.05263px;
+  height: 120px;
+  border-radius: 20px;
+}
+.FaMoneyBills {
+  position: relative;
+  left: 169px;
+  /* width: 35px;
+  height: 35px; */
+  font-size: 24px;
+  top: 20px;
+}
+.d-data {
+  margin: 40px 0px 40px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.d-value {
+  color: #000;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 20px 25px;
+  padding: 5px;
+}
+.d-topic {
+  color: #000;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px 0px 0px 25px;
+  padding-left: 5px;
+}
+.chart {
+  background-color: white;
+  border-radius: 20px;
+}
+.pie-chart {
+  background-color: white;
+  width: 480px;
+  height: 256px;
+  border-radius: 20px;
+}
+.top-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px;
+}
+.datachart {
+  position: relative;
+}
+.chart-headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.line-1 {
+  margin: 0px;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.line-2 {
+  margin: 5px 5px 0px 0px;
+  color: #858585;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.porduct-data {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.percentage {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.test-marg {
+  margin: 30px 40px 30px 40px;
+}
+.percentage-value {
+  color: #858585;
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.schedules {
+  margin: 30px 40px 30px 40px;
+}
+.meeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 20px;
+  gap: 13px;
+}
+.meet {
+  color: #666;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 4px;
+}
+.common {
+  color: #999;
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 4px;
+}
+.liner{
+  height: 66px;
+  padding: 0px 0px 0px 20px;
+  border-left: 5px solid #9BDD7C;
+}
+.liner1{
+  height: 66px;
+  padding: 8px 0px 0px 20px;
+  border-left: 5px solid #6972C3;
+}
+@media screen and (width: 1435px){
+  .pie-chart {
+    width: 300px;
+  }
+}
+@media screen and (width: 1315px){
+  .pie-chart {
+    width: 100px;
+  }
+  .data-4{
+    width: 150px;
+  }
+}

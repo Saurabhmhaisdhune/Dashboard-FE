@@ -1,0 +1,76 @@
+.sidebar {
+  margin: 40px 0px 40px 40px;
+  background-color: black;
+  /* width: 280px; */
+  /* height: 944px; */
+  height: 90vh;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 1440px) {
+  .sidebar {
+    width: 280px;
+    height: 944px;
+  }
+}
+.sidebar-content {
+  margin: 60px 0px 0px 50px;
+}
+.d-list-active {
+  list-style-type: none;
+  color: white;
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.d-list {
+  list-style-type: none;
+  color: white;
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.d-ul {
+  padding: 0px;
+}
+.d-ul1 {
+  padding: 0px;
+  position: relative;
+  top: 394px;
+}
+.dashboard-title {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+.d-icons {
+  width: 18px;
+  height: 18px;
+  padding-right: 20px;
+}
+.help-cont {
+  padding: 0px;
+}
+.help-list {
+  list-style-type: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}

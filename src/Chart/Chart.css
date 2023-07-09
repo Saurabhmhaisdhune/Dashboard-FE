@@ -1,0 +1,28 @@
+.act-may{
+    /* position: absolute;
+    top: 25px; */
+    margin: 0px 0px 0px 40px;
+    padding: 30px 0px 0px 0px;
+}
+.act{
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+.may{
+    color: #858585;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.main-activites{
+    min-width: 1000px;
+    height: 359px;
+}
