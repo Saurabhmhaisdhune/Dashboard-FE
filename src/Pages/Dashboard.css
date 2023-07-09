@@ -13,21 +13,26 @@
     grid-template-columns: 0% 100%;
     gap: 20px;
   }
+  .data-4 {
+    width: 200px;
+  }
   /* .FaMoneyBills{
     
   } */
   .d-data {
-    display: flex;
+ 
     flex-direction: column;
-    justify-content: center;
+    height: auto;
+    align-items: center;
     /* display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto; */
   }
   .top-products {
-    display: flex;
+    
     flex-direction: column;
-    justify-content: center;
+    height: auto;
+    align-items: center;
   }
   .option {
     visibility: visible;
