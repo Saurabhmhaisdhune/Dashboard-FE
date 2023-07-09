@@ -146,6 +146,4 @@ function Dashboard() {
     </div>
   );
 }
-//id=353304673918-2fpbgk2bp5jnh52eqjkb0u06vponi6on.apps.googleusercontent.com
-//secret=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
 export default Dashboard;
