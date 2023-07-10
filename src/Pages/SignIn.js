@@ -65,7 +65,7 @@ function SignIn() {
               <input
                 type="password"
                 className="inpts"
-                placeholder="######"
+                placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"
               ></input>
               <h1 className="forget-pass">Forgot password?</h1>
               <button className="login-button">Sign In</button>

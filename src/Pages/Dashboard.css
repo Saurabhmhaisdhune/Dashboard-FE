@@ -8,6 +8,12 @@
   gap: 40px;
   grid-template-columns: 19.44% 78.66%;
 }
+@media (max-width: 900px) {
+  .icons{
+    left: 140px;
+    font-size: 2px;
+  }
+}
 @media (max-width: 1220px) {
   .Dashboard-main {
     grid-template-columns: 0% 100%;
@@ -16,9 +22,6 @@
   .data-4 {
     width: 200px;
   }
-  /* .FaMoneyBills{
-    
-  } */
   .d-data {
  
     flex-direction: column;
@@ -102,7 +105,7 @@
   height: 120px;
   border-radius: 20px;
 }
-.FaMoneyBills {
+.icons {
   position: relative;
   left: 169px;
   /* width: 35px;
@@ -245,19 +248,6 @@
   padding: 8px 0px 0px 20px;
   border-left: 5px solid #6972c3;
 }
-/* @media screen and (width: 1435px){
-  .pie-chart {
-    width: 300px;
-  }
-}
-@media screen and (width: 1355px){
-  .pie-chart {
-    width: 100px;
-  }
-  .data-4{
-    width: 100px;
-  }
-} */
 .option {
   visibility: hidden;
   color: #000;
